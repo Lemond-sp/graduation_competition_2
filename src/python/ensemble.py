@@ -1,8 +1,8 @@
 LSTM_PATH = 'pseudo-lstm'
 #LSTM_PATH = 'bilstm'
 
-SVRS = ['487A-optuna_pse-svr_eval_sudachi-fullA3','487A-optuna_pse-svr_eval_sudachi-fullC3',"487A-optuna_pse-svr_eval_sudachiA3",'487A-optuna_pse-svr_eval_sudachiC3','491A-optuna_pse-svr_eval_sudachiA3','491C-optuna_pse-svr_eval_sudachiC3','optuna_pse-svr_eval_sudachi-fullC-2','optuna_pse-svr_eval_sudachi-fullC']
-LSTM = '522'
+SVRS = []
+LSTM = []
 score = []
 i = 1
 print(LSTM)
