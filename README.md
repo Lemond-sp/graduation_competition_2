@@ -23,6 +23,7 @@
 2. 1.で作成したモデルを使って、ラベルづけされていないデータ(Test)で予測値を出す
 3. 2.の予測値を疑似ラベルとし、疑似ラベルづきデータをラベルづきデータに混ぜて学習する
 
+## Optuna
+LinearSVRの閾値をOptunaで最適化
 ## モデル
-- BiLSTM + SVR(Reg.optuna) + MLP によるアンサンブル
-## 参考資料
+- BiLSTM + LinearSVR(Reg.optuna) + MLP によるアンサンブル
