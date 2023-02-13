@@ -24,6 +24,6 @@
 3. 2.の予測値を疑似ラベルとし、疑似ラベルづきデータをラベルづきデータに混ぜて学習する
 
 ## Optuna
-LinearSVRの閾値をOptunaで最適化
+- LinearSVRの閾値をOptunaで最適化
 ## モデル
 - BiLSTM + LinearSVR(Reg.optuna) + MLP によるアンサンブル
