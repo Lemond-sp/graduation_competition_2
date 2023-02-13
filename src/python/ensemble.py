@@ -1,6 +1,8 @@
-LSTM_PATH = 'pseudo-lstm'
-#LSTM_PATH = 'bilstm'
+'''
+BiLSTM SVR との平均
+'''
 
+LSTM_PATH = 'pseudo-lstm'
 SVRS = []
 LSTM = []
 score = []
