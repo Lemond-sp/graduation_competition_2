@@ -26,4 +26,12 @@
 ## Optuna
 - LinearSVRの閾値をOptunaで最適化
 ## モデル
-- BiLSTM + LinearSVR(Reg.optuna) + MLP によるアンサンブル
+### BiLSTM
+擬似ラベル手法を用いたテストデータを学習データに加えて再学習をn回繰り返し
+### LinearSVR
+擬似ラベル手法を用いたテストデータを学習データに加えて再学習をn回繰り返し
+### MLP
+MLPによる分類問題
+### アンサンブル
+- 擬似ラベル手法を適応したBiLSTMとLinearSVRとのアンサンブル(Aとする)
+- AとMLPとのアンサンブル
