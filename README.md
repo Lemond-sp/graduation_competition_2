@@ -26,6 +26,8 @@
 ## Optuna
 - LinearSVRの閾値をOptunaで最適化
 ## モデル
+- 擬似ラベルを適用したBiLSTM, LinearSVR + MLP
+![](src/images/model.png)
 ### BiLSTM
 擬似ラベル手法を用いたテストデータを学習データに加えて再学習をn回繰り返し
 ### LinearSVR
